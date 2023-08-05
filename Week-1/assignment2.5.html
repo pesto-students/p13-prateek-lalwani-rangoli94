@@ -10,6 +10,9 @@
         div {
             margin: 20px;
         }
+        sup {
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -18,11 +21,11 @@
     -->
     <form method="POST" enctype="multipart/form-data">
         <div>
-            <label>Full Name:</label> <br />
+            <label>Full Name<sup>*</sup>:</label> <br />
             <input type="text" name="fullName" id="fullName" required>
         </div>
         <div>
-            <label>Email:</label><br />
+            <label>Email<sup>*</sup>:</label><br />
             <input type="text" name="email" id="email" required>
         </div>
         <div>
