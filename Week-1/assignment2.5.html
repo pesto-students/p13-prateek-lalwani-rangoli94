@@ -7,6 +7,9 @@
             font-weight: 800;
             color: blue;
         }
+        div {
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
@@ -15,21 +18,21 @@
     -->
     <form method="POST" enctype="multipart/form-data">
         <div>
-            <label>Full Name:</label>
+            <label>Full Name:</label> <br />
             <input type="text" name="fullName" id="fullName" required>
         </div>
         <div>
-            <label>Email:</label>
+            <label>Email:</label><br />
             <input type="text" name="email" id="email" required>
         </div>
         <div>
-            <label>About:</label>
+            <label>About:</label><br />
             <textarea rows="3" cols="50" name="about" id="about">
                 Enter a short description...
             </textarea>
         </div>
         <div>
-            <label>Picture:</label>
+            <label>Picture:</label><br />
             <input type="file" name="picture" id="picture">
         </div>
         <div>
