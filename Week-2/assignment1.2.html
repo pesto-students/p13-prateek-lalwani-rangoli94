@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1.2</title>
+    <style>
+        div {
+           margin-bottom: 10px; 
+        }
+        label {
+            display: inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday Message Creator</h1>
+    </header>
+    <form enctype="multipart/form-data" method="post">
+        <div>
+            <label>Message</label>
+            <input type="text" name="message" id="message" value="Happy birthday!" />
+        </div>
+        <div>
+            <label>Email address?</label>
+            <input type="email" name="email" id="email" placeholder="name@domain.com" />
+        </div>
+        <div>
+            <label>Date to send?</label>
+            <input type="date" name="date" id="date" />
+        </div>
+        <div>
+            <label>Message color?</label>
+            <input type="color" name="color" id="color" />
+        </div>
+        <div>
+            <label>Number of blinks?</label>
+            <input type="number" name="number" id="number" min="0" max="10" />
+        </div>
+        <div>
+            <label>Music volume?</label>
+            <input type="range" min="0" max="50" value="20" />
+        </div>
+        <div>
+            <input type="submit" value="Send Birthday Message"/>
+        </div>
+        
+        
+    </form>
+    
+</body>
+</html>
