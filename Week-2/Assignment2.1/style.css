@@ -1,9 +1,9 @@
 * {
-    font-family: "Roboto" , "Helvetica" ,"sans-serif";
+    font-family: "Roboto", "Helvetica", "sans-serif";
 }
 
 .main {
-width: fit-content;
+    width: fit-content;
 }
 
 .header {
@@ -29,11 +29,15 @@ width: fit-content;
     font-weight: 400;
     background-color: #00b3b3;
 }
+
 .offerTable {
     padding: 10px;
     background-color: #fafafa;
 }
-.offerTable > table, th, td {
+
+.offerTable>table,
+th,
+td {
     font-size: 12px;
     border: 1px solid #fafafa;
     border-left: none;
@@ -43,11 +47,12 @@ width: fit-content;
     color: #444444;
 }
 
-th, td {
+th,
+td {
     padding: 20px;
     background-color: #ffffff;
     width: 50%;
-} 
+}
 
 .totalCost {
     color: #2222ff
