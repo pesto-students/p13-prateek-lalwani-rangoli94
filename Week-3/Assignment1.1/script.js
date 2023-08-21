@@ -10,3 +10,11 @@ modalYesBtn.addEventListener("click", function () {
    sendBtn.style.display = "none";
    showAlert("conf-alert");
 });
+
+
+const sendMsgBtn = document.querySelector("#send-message-btn");
+sendMsgBtn.addEventListener("click", function () {
+   const sendBtn = document.querySelector("#send-message-btn");
+   sendBtn.style.display = "none";
+   showAlert("conf-alert");
+});
