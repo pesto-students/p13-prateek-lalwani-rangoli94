@@ -1,0 +1,59 @@
+* {
+    font-family: "Roboto", "Helvetica", "sans-serif";
+}
+
+.main {
+    width: fit-content;
+}
+
+.header {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.offer {
+    display: inline-block;
+    margin: 5px;
+    font-size: 13px;
+    width: 400px;
+    text-align: left;
+    border: 1px solid #cccccc;
+}
+
+.offerTitle {
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: 400;
+    background-color: #00b3b3;
+}
+
+.offerTable {
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.offerTable>table,
+th,
+td {
+    font-size: 12px;
+    border: 1px solid #fafafa;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    padding: 10px;
+    color: #444444;
+}
+
+th,
+td {
+    padding: 20px;
+    background-color: #ffffff;
+    width: 50%;
+}
+
+.totalCost {
+    color: #2222ff
+}

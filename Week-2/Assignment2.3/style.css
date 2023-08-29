@@ -1,0 +1,20 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+
+.subtext {
+    color: lightgray;
+}
+
+p,
+li {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+    font-size: 12px;
+}
