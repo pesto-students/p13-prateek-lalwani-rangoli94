@@ -11,7 +11,7 @@ function playGuessingGame(numToGuess, totalGuesses = 2) {
         if (num == numToGuess) {
             return i + 1
         }
-        if (num == "") {
+        if (num == "" || isNaN(Num) || num <= 0 || num > 100) {
             i--;
             num = prompt("Please enter a number.")
         }
