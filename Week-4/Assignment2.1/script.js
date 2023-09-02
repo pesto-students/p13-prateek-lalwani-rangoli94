@@ -19,9 +19,9 @@ const game = {
 
 console.log("lives = " + game.lives);
 console.log("coins = " + game.coins);
-console.log("points = " + game.points());
+console.log("points = " + game.points);
 game.coins = 2;
-console.log("points = " + game.points());
+console.log("points = " + game.points);
 game.playerDies();
 console.log("lives = " + game.lives);
 game.playerDies();
