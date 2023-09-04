@@ -95,7 +95,7 @@ function switchTurn() {
         playerTurn = !playerTurn;
         if (playerTurn == false) {
             turnInfo.textContent = "Computer's turn"
-            computerMoveTimeout = setTimeout(makeComputerMove(), 5000)
+            computerMoveTimeout = setTimeout(makeComputerMove(), 1000)
         }
         if (playerTurn == true) {
             turnInfo.textContent = "Your turn"
@@ -122,6 +122,7 @@ function makeComputerMove() {
         let index = Math.floor(Math.random() * 9);
         if (buttons[index].disabled == false) {
             buttons[index].innerHTML = 'O';
+            buttons[index].classList.add("o");
             buttons[index].disabled = true;
             flag = false
         }
