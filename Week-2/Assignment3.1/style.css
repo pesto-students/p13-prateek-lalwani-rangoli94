@@ -1,0 +1,38 @@
+* {
+    font-size: 40px;
+}
+
+#result {
+    animation: move_fraction 2s 1;
+    position: relative;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move_fraction {
+    0% {
+        left: -1000px;
+        top: 100px;
+        color: yellow;
+    }
+
+    50% {
+        left: 0px;
+        top: 100px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        color: red
+    }
+}
+
+#question {
+    transition: tranform 0s, ease-in-out 0.6s;
+    transform: scale(1);
+}
+
+#question:hover {
+    transform: scale(0.9);
+}

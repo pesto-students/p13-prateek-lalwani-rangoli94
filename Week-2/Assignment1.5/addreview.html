@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Restaurant Review</title>
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./addreview.html">Add Review</a>
+        <a href="./about.html">About</a>
+    </nav>
+    <main>
+        <h2>
+            Add Review
+        </h2>
+        <form enctype="multipart/form-data" method="post">
+            <p>
+                <label>Name?</label>
+                <input type="text" name="fullName" id="fullName" />
+            </p>
+            <p>
+                <label>Restaurant?:</label>
+                <select name="restaurant">
+                    <option value="" disabled selected hidden>Choose one...</option>
+                    <option value="Main Street Cafe">Main Street Cafe</option>
+                    <option value="Greek House">Greek House</option>
+                </select>
+            </p>
+            <p>
+                <label>Date of visit?</label>
+                <input type="date" name="date" id="date" />
+            </p>
+            <p>
+                <label>Rating?</label>
+                <input type="number" name="rating" id="rating" min="0" max="5" value="5" />
+            </p>
+            <p>
+                <label>Details?</label>
+                <textarea rows="3" cols="50" name="details" id="details"></textarea>
+            </p>
+            <p>
+                <input type="submit" />
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>&#169 2022 Restaurant Reviews</p>
+    </footer>
+</body>
+
+</html>

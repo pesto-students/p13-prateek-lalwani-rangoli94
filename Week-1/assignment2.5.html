@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 2.5</title>
+    <style>
+        label {
+            font-weight: 800;
+            color: blue;
+        }
+        div {
+            margin: 20px;
+        }
+        sup {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Form
+    -->
+    <form method="POST" enctype="multipart/form-data">
+        <div>
+            <label>Full Name<sup>*</sup>:</label> <br />
+            <input type="text" name="fullName" id="fullName" required>
+        </div>
+        <div>
+            <label>Email<sup>*</sup>:</label><br />
+            <input type="text" name="email" id="email" required>
+        </div>
+        <div>
+            <label>About:</label><br />
+            <textarea rows="3" cols="50" name="about" id="about">
+                Enter a short description...
+            </textarea>
+        </div>
+        <div>
+            <label>Picture:</label><br />
+            <input type="file" name="picture" id="picture">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+</body>
+</html>

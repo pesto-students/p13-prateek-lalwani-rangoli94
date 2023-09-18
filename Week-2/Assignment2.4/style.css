@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDF4FB;
+}
+
+h1 {
+    color: rgb(26, 69, 107);
+}
+
+li {
+    color: #296CA8;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.highlight {
+    background-color: yellow;
+    text-decoration: underline;
+}
