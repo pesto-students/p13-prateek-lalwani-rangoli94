@@ -1,0 +1,49 @@
+.successMessage {
+    text-align: center;
+}
+
+/* .successMessage > h2 {
+    display: inline-block;
+} */
+
+.contact {
+    width: 30vw;
+    height: 40vh;
+    background-color: darkgrey;
+    border: 5px solid black;
+    padding: 40px;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    padding: 10px;
+} 
+
+.inputStyle {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    height: 20px; 
+    margin: 5px;
+    background-color: darkgray;
+    padding-left: 5px;
+}
+
+.submitButton {
+    border: 2px solid black;
+    width: 30%;
+    height: 30px; 
+    background-color: darkgray;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 30%;
+}
+
+.submitButton:hover {
+    background-color: white;
+}

@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    color: white;
+    height: 50px;
+    padding-top: 20px;
+    list-style: none;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    width: 100vw;
+}
+
+
